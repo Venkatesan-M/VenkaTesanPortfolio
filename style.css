@@ -132,6 +132,19 @@ svg{
   }
 }
 
+.facts{
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.items{
+  display: inline-block ;
+  justify-content: center;
+  align-items: center;
+}
 /* Page */
 
 .page{
@@ -725,5 +738,8 @@ svg{
   }
   .hero-second-subheading{
     font-size: 18px;
+  }
+  .facts{
+    font-size: 12px;
   }
 }
