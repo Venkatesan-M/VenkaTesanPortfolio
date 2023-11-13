@@ -3,7 +3,6 @@ import Experience from "./Experience";
 import GSAP from 'gsap';
 import convert from "./Utils/convertDivstoSpans";
 
-
 export default class Preloader extends EventEmitter{
     constructor(){
         super();

@@ -1,10 +1,8 @@
-import * as THREE from 'three';
 import Experience from '../Experience';
 
 import Room from './Room';
 import Floor from './Floor';
 import Enviroment from './Enviroment';
-import Controls from './Controls';
 
 import EventEmitter from "events";
 
@@ -47,10 +45,5 @@ export default class World extends EventEmitter{
         if(this.room){
             this.room.update();
         }
-        // if(this.controls){
-        //     this.controls.update();
-        // }
-
-
     }
 }
