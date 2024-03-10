@@ -1,7 +1,7 @@
 import "./style.css";
 import Experience from "./Experience/Experience.js";
 import Facts from "./Facts.js";
-import { shuffleArray, factTittles } from "./Facts.js";
+import { shuffleArray, factTittles, docTitles } from "./Facts.js";
 
 const experience = new Experience(document.querySelector(".experience-canvas"));
 
@@ -20,4 +20,13 @@ document.addEventListener("DOMContentLoaded", function() {
   
     factNumber = Math.floor(Math.random() * Facts.length);
     factPlaceholder.textContent = randomFact();
+
+    let docTitle = document.title;
+    window.addEventListener("blur", ()=>{
+      const docTitleNumber = Math.floor(Math.random() * docTitles.length);
+      document.title = docTitles[docTitleNumber];
+    } )
+    window.addEventListener("focus", ()=>{
+      document.title = docTitle;
+    })
 });

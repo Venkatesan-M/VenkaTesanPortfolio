@@ -41,7 +41,6 @@ export default class Enviroment{
         const today = new Date()
         const curHr = today.getHours()
         if(curHr > 18 || curHr < 6 ){
-            console.log((new Date()).getHours)
             this.switchTheme('Moon');
             document.querySelector("input[name=checkbox]").click();
         }

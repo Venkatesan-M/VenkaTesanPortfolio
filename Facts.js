@@ -188,6 +188,49 @@ export const factTittles = [
     'Key Insight:',
 ];
 
+export const docTitles = [
+    "Hey, Come Back 🥺",
+    "Come Back 🥺",
+    "Ignoring me? 😞",
+    "Hello? 👋",
+    "What's up? 🤔",
+    "Missed me already? 😏",
+    "Don't leave me hanging! 🙄",
+    "I'm lonely 😔",
+    "Hey, stranger! 👀",
+    "Am I not interesting enough? 🤷‍♂️",
+    "You were gone for ages! ⏳",
+    "Did you miss me? 😘",
+    "Back? 🥺",
+    "👀",
+    "🙄",
+    "Hey! 👋",
+    "🤔",
+    "Missed me? 😏",
+    "Lonely 😔",
+    "Hello! 👀",
+    "Peek-a-boo! 👻",
+    "Hey! 😉",
+    "Abandoned 😢",
+    "Worry! 😨",
+    "Gone! ⏳",
+    "Missed? 😘",
+    "Back! 🚶‍♂️",
+    "Here! 👀",
+    "Lost? 😅",
+    "Long time! 😅",
+    "You look Lonely👉",
+    "Hacking 👾",
+    "Enter the Matrix! 🧬",
+    "Let's Hack! 🕵️‍♂️",
+    "Ready to Code? 💻",
+    "404: Title Not Found",
+    "Ctrl+Shift+T",
+    "Ctrl+w ❌",
+    "Hacking your Device",
+];
+
+
 export function shuffleArray(array) {
     for (var i = array.length - 1; i > 0; i--) {
         var j = Math.floor(Math.random() * (i + 1));
@@ -196,4 +239,7 @@ export function shuffleArray(array) {
         array[j] = temp;
     }
 }
+
+
+
 export default Facts;
