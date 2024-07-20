@@ -450,6 +450,13 @@ svg{
   margin: 10px 0px;
 }
 
+.project-link {
+  color: inherit; /* Use the same color as surrounding text */
+  text-decoration: none; /* Remove underline */
+}
+.project-link:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
 
 /* Section */
 
